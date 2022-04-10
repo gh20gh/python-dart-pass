@@ -1,0 +1,15 @@
+def number(x):
+    even = []
+    odd = []
+    if (x>0 & x<=10):
+        for i in range(x):
+            n = int(input())
+            if n%2==0:
+                even.append(n)
+            else:
+                odd.append(n)
+        [print(a,"is even") for a in even]
+        [print(b,"is odd") for b in odd]        
+    else:
+        print("Enter x value between 0 and 10")
+number(int(input("Enter x value : ")))
