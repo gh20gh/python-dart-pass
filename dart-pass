@@ -1,0 +1,66 @@
+/*
+
+Q1
+
+const varibles must be initialized wiht a constant value 
+
+*/
+
+
+
+
+
+/*
+
+Q2
+
+*/
+
+
+abstract class Animal {
+  void  printName();
+  void printSound();
+}
+
+class Dog extends Animal {
+  void printName() {
+    print('Dog');
+  }
+
+  void printSound() {
+  }
+}
+
+class Cat extends Animal {
+  void printName() {
+    print('Cat');
+  }
+
+  void printSound() {
+  }
+}
+
+class Cow extends Animal {
+  void printName() {
+    print('Cow');
+  }
+
+  void printSound() {
+  }
+}
+
+void main() {
+  var a = Cat(), b = Dog(), c = Cow();
+
+  a.printName();
+
+  a.printSound();
+
+  b.printName();
+
+  b.printSound();
+
+  c.printName();
+
+  c.printSound();
+}
